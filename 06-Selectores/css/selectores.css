@@ -1,0 +1,10 @@
+.contenedor p{
+    color: green;
+}
+
+/* esto se llama usar selectores ya que siendo especifico puedes llamar a todos
+tus botones de la misma manera(class) solo especificandole cual es su main*/
+.contenedor .boton{
+    color: white;
+    background-color: black;
+}
