@@ -1,0 +1,47 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    /*transition: transform 2s 2s; /* requiere objeto al que se le hara la transicion y los segundos de la transicion*/
+    /* al agregar otros seg son el tiempo que se va a tomar la accion para reaccionar*/
+    animation: traslacion 3s ease-in-out infinite forwards alternate; 
+}
+
+/*animation: sirve para crear una animacion*/
+/*infinite: el numero de veces que queremos que se repita la animacion*/
+/*forwards: el objeto sobre el que se aplica la animacion se quedara igual forzar*/
+/*alternate: el objeto alternara su animacion */
+
+.padre:hover .hijo{
+/*transform: translateX(100%);  /*modificacion que quieres que se le haga conforme los ejes*/
+/* background-color: black; */
+animation-play-state: paused; 
+}
+
+@keyframes traslacion{
+    0%{
+        background-color: aquamarine;
+        transform: translateX(0%) translateY(0%);
+    }
+    25%{
+        background-color: violet;
+        transform: translateX(100%) translateY(0%);
+    }
+    50%{
+        background-color: crimson;
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        background-color: darkcyan;
+        transform: translateX(0%) translateY(100%);
+    }
+    100%{
+        background-color: rebeccapurple;
+    }
+}
