@@ -1,0 +1,20 @@
+.contenedor{
+    background-color: yellow;
+    padding: 0.25rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    justify-content: space-around; /*se posiciona todo lo de adentro del contenedor de manera horizontal*/
+    align-items: center; /* se posiciona todo lo de adentro del contenedor de manera vertical*/
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: darkblue;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2{
+    align-self: stretch;/*se posiciona un elemento en especifico*/
+}

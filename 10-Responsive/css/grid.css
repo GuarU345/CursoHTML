@@ -1,0 +1,29 @@
+.contenedor{
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    column-gap: 0.1rem;
+    row-gap: 1rem;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 200px 5rem 100px;
+    /* grid-template-areas: 'head head head' 'main main aside' 'footer footer footer'; */
+}
+
+.item{
+    background-color: aqua;
+    padding: 0.25rem;
+    color: black;
+    font-size: 2rem;
+    border:1px solid darkblue;
+}
+
+.item1{
+    grid-column: 1/3; /* de donde quiero que empieze mi elemento y hasta donde quiero que llegue*/
+    /* grid-area: head; */
+}
+
+.item9{
+    /* grid-area: footer; */
+    grid-area: 2/2/4/5; /*fila columna fila columna*/
+
+}
