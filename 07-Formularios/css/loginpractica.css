@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: #051e3d;
+    padding: 50px;
+}
+
+h3{
+    font-size: 16pt;
+}
+
+.container{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #161617;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn{
+    display: flex;
+    background-color: #1A73E8;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    align-items: center;
+    padding: 2px;
+}
+
+.google-btn:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.google-btn picture{
+    width: 35px;
+    background-color: white;
+    height: 35px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img{
+    width: 75%;
+}
+
+.google-btn span{
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitter-btn{
+    color: #bbb;
+    background-color: #eee;
+    border: none;
+    width: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter-btn:hover{
+    background-color: #ddd;
+}
+
+.twitter-btn picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-btn picture img{
+    width: 75%;
+}
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr{
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left:10px;
+    align-items: center;
+    gap: 20px;
+}
+
+label{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-container label input{
+    width: 80%;
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+.input-container label input:hover{
+    border: 1px solid #f3f3f4;
+    background-color: #454045;
+    box-shadow: 0 0 4px rgba(162, 17, 167, 0.418);
+}
+
+.input-container2{
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+}
+
+.input-container2 label input{
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+.input-container2 label input:hover{
+    border: 1px solid #f3f3f4;
+    background-color: #454045;
+    box-shadow: 0 0 4px rgba(162, 17, 167, 0.418);
+}
+
+.checkbox{
+    display: flex;
+    padding-left:10px;
+    flex-direction: row;
+}
+
+.checkbox input[type='checkbox']{
+    width: 20px;
+}
+
+.checkbox span{
+    font-weight: 400;
+}
+
+.account-btn{
+    border: none;
+    background-color: #ea4c89;
+    font-size: 16pt;
+    width: 96%;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.account-btn:hover{
+    opacity: 0.75;
+}

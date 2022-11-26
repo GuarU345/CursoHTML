@@ -1,0 +1,25 @@
+.input{
+    width: 50%;
+    padding: 5px 10px;
+    border: 2px solid rgb(0, 255, 221);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"]{
+    color: red;
+}
+
+.input-moderno{
+    border: none;
+    border-bottom: 2px solid aquamarine;
+    width: 250px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    outline: none;
+    color: black;
+}
+
+.input-moderno::placeholder{
+    color: rgb(161, 161, 161);
+}
